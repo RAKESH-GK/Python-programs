@@ -1,6 +1,3 @@
-from asyncio.proactor_events import _ProactorBaseWritePipeTransport
-
-
 a,b,c,d=("1 2 3 4").split()
 print("\nList datatype operations:\n")
 print("adding",a,b,c,d,"to the list")
@@ -15,7 +12,6 @@ print("after popping the list is",l,"and length is",len(l))
 print("removing",a,"from the list")
 l.remove(a)
 print("after removeing the set is",l,"and length is",len(l))
-
 
 print("\nSet datatype operations:\n")
 print("adding",a,b,c,d,"to the set")

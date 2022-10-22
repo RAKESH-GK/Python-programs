@@ -1,5 +1,4 @@
 import os
-from statistics import mode
 path="1_datatypes.py"
 fd=os.open(path,os.O_RDWR)
 info=os.fstat(fd)
